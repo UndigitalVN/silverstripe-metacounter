@@ -4,8 +4,9 @@ namespace Innoweb\MetaCounter\Model;
 
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Forms\FieldList;
+use SilverStripe\Core\Extension;
 
-class SiteTreeExtension extends \SilverStripe\CMS\Model\SiteTreeExtension {
+class SiteTreeExtension extends Extension {
 
     public function updateCMSFields(FieldList $fields)
     {
