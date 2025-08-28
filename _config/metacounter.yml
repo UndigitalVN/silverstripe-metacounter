@@ -3,9 +3,9 @@ name: metacounter
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_javascript:
-    - 'innoweb/silverstripe-metacounter: client/dist/javascript/metacounter.js'
+    - 'undigitalvn/silverstripe-metacounter: client/dist/javascript/metacounter.js'
   extra_requirements_css:
-    - 'innoweb/silverstripe-metacounter: client/dist/css/metacounter.css'
+    - 'undigitalvn/silverstripe-metacounter: client/dist/css/metacounter.css'
 
 Page:
   extensions:
